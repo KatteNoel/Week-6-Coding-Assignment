@@ -9,7 +9,7 @@ class Player{
     playCard()
     {
         //play a random card
-        this.index = parseInt((Math.random() * ((this.cards.length - 1)+ 1)), 10);
+        this.index = parseInt((Math.random() * ((this.cards.length - 1) + 1)), 10);
         return this.cards[this.index];
     }
 
